@@ -1,21 +1,16 @@
-# Elixirator
+# Elixirator Fuel Calculator
 
-**TODO: Add description**
+  FuelCalculator calculates fuel required for a space mission
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixirator` to your list of dependencies in `mix.exs`:
+## Run Code
+Run "iex -S mix run --no-halt" to run the application
 
-```elixir
-def deps do
-  [
-    {:elixirator, "~> 0.1.0"}
-  ]
-end
-```
+Call fuel calculator method to calculate fuel for the mission as: 
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixirator](https://hexdocs.pm/elixirator).
+Elixirator.FuelCalculator.calculate_total_fuel(28801, [{:land, 9.807}])
+
+## Run test cases
+Run "mix test" to run test cases written in fuel_calculator_test.exs file
+
 
